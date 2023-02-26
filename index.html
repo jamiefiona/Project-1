@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style-poem.css" rel="stylesheet" type="text/css">
+    <link href="style-music.css" rel="stylesheet" type="text/css">
+    <title>Project 1</title>
+    
+ <style>
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+ </style>   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+       // Left Icons
+      $("#icon1").hover(function(){  
+        $(this).attr('src','./img/icon1-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon1.png');  
+      });  
+
+      $("#icon2").hover(function(){  
+        $(this).attr('src','./img/icon2-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon2.png');  
+      }); 
+
+      $("#icon7").hover(function(){  
+        $(this).attr('src','./img/icon7-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon7.png');  
+      }); 
+
+      $("#icon4").hover(function(){  
+        $(this).attr('src','./img/icon4-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon4.png');  
+      }); 
+
+      $("#icon5").hover(function(){  
+        $(this).attr('src','./img/icon5-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon5.png');  
+      }); 
+
+      $("#icon8").hover(function(){  
+        $(this).attr('src','./img/icon8-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon8.png');  
+      }); 
+
+
+      // task bar
+      $("#icon3").hover(function(){  
+        $(this).attr('src','./img/icon3-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon3.png');  
+      }); 
+
+      $("#icon9").hover(function(){  
+        $(this).attr('src','./img/icon9-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon9.png');  
+      }); 
+
+      $("#icon10").hover(function(){  
+        $(this).attr('src','./img/icon10-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon10.png');  
+      }); 
+
+      $("#icon6").hover(function(){  
+        $(this).attr('src','./img/icon6-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/icon6.png');  
+      }); 
+
+
+       // Right designs (backgrounds)
+       $("#l-design").hover(function(){  
+        $(this).attr('src','./img/l-design-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/l-design.png');  
+      }); 
+
+      $("#s-design").hover(function(){  
+        $(this).attr('src','./img/s-design-hover.png');  
+        }, function(){  
+        $(this).attr('src','./img/s-design.png');  
+      }); 
+    
+   
+   // Open Modals - appends an "active" class to .popup and .popup-content when the "Open" button is clicked
+   $("#icon1").on("click", function() {
+      $("#content").load("./exersize2.html")
+	    $(".popup-overlay, .popup-content").addClass("active");
+  });
+
+  $("#icon5").on("click", function() {
+      $("#content").load("./index1.html")
+	    $(".popup-overlay, .popup-content").addClass("active");
+  });
+
+  $("#icon4").on("click", function() {
+      $("#content").load("./game.html");
+	    $(".popup-overlay, .popup-content").addClass("active");
+  });
+
+  $("#icon5").on("click", function() {
+      $("#content").append( "<strong>Hello 4</strong>" );
+	    $(".popup-overlay, .popup-content").addClass("active");
+  });
+
+  $("#icon6").on("click", function() {
+      $("#content").load( "./index-weeklys.html" );
+	    $(".popup-overlay, .popup-content").addClass("active");
+  });
+
+  $("#icon10").on("click", function() {
+      $("#content").load( "./weather.html" );
+	    $(".popup-overlay, .popup-content").addClass("active");
+  });
+
+  $("#icon9").on("click", function() {
+      $("#content").load( "./music.html" );
+	    $(".popup-overlay, .popup-content").addClass("active");
+  });
+
+
+
+  
+  //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+  $(".close, .popup-overlay").on("click", function() {
+    $("#content").empty();
+    $(".popup-overlay, .popup-content").removeClass("active");
+  });
+
+//loading page to content 1
+    //$("#content1").load("./exersize2.html")
+    $("#content1").addClass("modal-body");
+    
+    }); 
+  </script> 
+   
+</head>
+<body>
+<h3 class="name">Jamie Chau</h3>
+
+<div>
+  
+</div>
+
+   <!-- Icons/Hover Icons   <table border="1"> -->
+  <div class="a"> 
+    <table>
+      <tr>
+        <td class="table-icon"> <img class="image" id="icon1" src="./img/icon1.png" alt="home"></img> </td>
+        <td class="table-icon"> <a href="https://www.jamiefiona.com/" target="_blank"><img class="image" id="icon2" src="./img/icon2.png" alt="home"></img></a> </td>
+  
+      </tr>
+      <tr>
+        <td class="table-label">Exercise 2</td>
+        <td class="table-label">Animations</td>
+      </tr>
+      <tr>
+        <td class="table-icon"> <a href="https://www.jamiefiona.com/illustration" target="_blank"> <img class="image" id="icon7" src="./img/icon7.png" alt="home"></img></a></td></td></td>
+        <td class="table-icon"> <img class="image" id="icon4" src="./img/icon4.png" alt="home"></img></td>
+      </tr>
+      <tr>
+        <td class="table-label">Illustrations</td>
+        <td class="table-label">Games</td>
+      </tr>
+
+      <tr>
+        <td class="table-icon"><img class="image" id="icon5" src="./img/icon5.png" alt="home"></img></td>
+        <td class="table-icon"><a href="https://www.jamiefiona.com/portfolio-2" target="_blank"><img class="image" id="icon8" src="./img/icon8.png" alt="home"></img></a></td>
+      </tr>
+      <tr>
+        <td class="table-label">Exercise 1</td>
+        <td class="table-label">Photos</td>
+      </tr>
+
+<!-- Background Design -->
+      <tr>  <img class="background1" id="l-design" src="./img/l-design.png"></img>
+        <img class="background2" id="s-design" src="./img/s-design.png"></img>
+      </tr>
+      
+    </table>
+  </div>
+
+   
+  <!-- The Modal Exercise 2 -->
+  <div id="icon1" class="popup-overlay">
+  
+    <!-- Modal content Exercise 2 -->
+    <div class="popup-content">
+      <div class="modal-header">
+        <span class="close">×</span>
+        <h2></h2>
+      </div>
+      <div id="content" class="modal-body">
+        <p>Some text in the Modal Body</p>
+       </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+ 
+
+
+
+<!-- Task Bar -->
+<div class="center"> 
+  <table>
+    <tr>
+      <td class="task-icon"> <a href="https://www.jamiefiona.com/design-2" target="_blank"> <img class="image2" id="icon3" src="./img/icon3.png" alt="home"></img> </a></td>
+      <td class="task-icon"> <img class="image2" id="icon9" src="./img/icon9.png" alt="home"></img> </td>
+      <td class="task-icon"> <img class="image2" id="icon10" src="./img/icon10.png" alt="home"></img> </td>
+      <td class="task-icon">  <img class="image2" id="icon6" src="./img/icon6.png" alt="home"></img> </td>
+    </tr>
+
+    <tr>
+      <td class="task-label"> Design </td>
+      <td class="task-label"> Music </td>
+      <td class="task-label"> Weather </td>
+      <td class="task-label"> Weeklys </td>
+    </tr>
+    </table>
+</div>
+
+
+ 
+
+
+
+
+  
+
+
+
+
+
+
+
+<script>
+  // Get the button that opens the modal
+var btn = document.querySelectorAll();
+
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+ btn[i].onclick = function(e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
+ }
+}
+
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+ spans[i].onclick = function() {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+    }
+ }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+     for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+     }
+    }
+}
+    </script>
+    
+
+</body>
+</html>

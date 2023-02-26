@@ -1,0 +1,87 @@
+.poemTitle {
+    color:blue 
+}
+.poemTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.poemBody {
+    font-family:sans-serif
+}
+
+.poemBody2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.poemBody3 {
+    font-family:sans-serif;
+}
+
+.poemBody4 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.poemBody5 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style:dotted;
+    border-color:coral;
+    width:275px;
+    padding-top: 10px;
+}
+
+.poemBody6 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style:groove;
+    border-color:mediumspringgreen;
+    width:400px;
+    padding-top: 10px;
+}
+
+.poemBody7 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style:dashed;
+    border-color:fuchsia;
+    width:600px;
+    padding-top: 10px; 
+}
+
+.poemBody8 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style:ridge;
+    border-color:dodgerblue;
+    width:800px;
+    padding-top: 10px;
+}
+
+.poemBody9 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aquamarine;
+    width: 275px;
+}
+
+.poemBody10 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:lightpink ;
+    width: 275px;
+}
+
+.poemBody11 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-color:silver ;
+    width: 275px;
+}
+
+.poemBody12 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-color:lightskyblue ;
+    width: 275px;
+}
+
+.poemBody13 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-color:blanchedalmond ;
+    width: 275px;
+}
+
+.poemBody14 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
