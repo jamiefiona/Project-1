@@ -28,7 +28,7 @@ var button;
 
 function preload() {
   img = loadImage("firefly.png");
-  // song = loadSound("piano.mp3");
+  song = loadSound("piano.mp3");
 }
 
 function centerCanvas() {
