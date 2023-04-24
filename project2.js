@@ -27,7 +27,7 @@ var button;
     // };
 
 function preload() {
-  img = loadImage("firefly3.png");
+  img = loadImage("Firefly3.png");
   soundFormats('mp3', 'ogg');
   song = loadSound("./piano.mp3");
 }
