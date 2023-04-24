@@ -13,7 +13,7 @@ let circleY = 150;
 let inc = 0.004;
 let start = 0;
 
-var song;
+let song;
 var button;
 
 // Mountain draw
@@ -27,8 +27,9 @@ var button;
     // };
 
 function preload() {
-  img = loadImage("firefly.png");
-  song = loadSound("piano.mp3");
+  img = loadImage("firefly3.png");
+  soundFormats('mp3', 'ogg');
+  song = loadSound("./piano.mp3");
 }
 
 function centerCanvas() {
@@ -36,7 +37,6 @@ function centerCanvas() {
   var d = (windowHeight - height) / 2;
   cnv.position(c, d);
 }
-
 
 function setup() {
     // createCanvas(1550, 900);
@@ -60,6 +60,8 @@ function setup() {
   // mountain.seed = random(30000);
 }
 
+
+
 function loaded() {
   console.log("loaded");
 }
@@ -67,8 +69,8 @@ function loaded() {
 function togglePlaying() {
   if (!song.isPlaying()) {
     song.play();
-    song.setVolume(0.3);
-    button.html("pause");
+    song.setVolume(1);
+    button.html("stop");
   } else {
     song.pause();
     button.html("play");
